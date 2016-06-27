@@ -34,6 +34,8 @@ import k_k_.data.rand._
 
 import k_k_.algo.ConsistentChoice
 
+import scala.language.existentials
+
 
 // NOTE: since type class bound ClassManifest (not Manifest), unable to verify
 // type ctor params (i.e. HOType[_] verifiable, but not ArgT in HOType[ArgT])
